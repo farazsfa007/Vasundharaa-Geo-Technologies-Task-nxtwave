@@ -72,10 +72,8 @@ function TodoApp() {
             </button>
         </form>
 
-        {/* Filters */}
         <FilterControls filter={filter} setFilter={setFilter} />
 
-        {/* Task List */}
         <ul className="space-y-2 mt-4">
             {filteredTasks.map((task) => (
             <TodoItem

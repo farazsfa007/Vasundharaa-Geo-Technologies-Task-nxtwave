@@ -40,7 +40,6 @@ function MultiProgressBar() {
             ))}
         </div>
 
-        {/* Main Bar */}
         <div className="h-6 bg-gray-200 rounded overflow-hidden mb-4">
             <div
             className={`h-full transition-all duration-500 ${getColor(
@@ -54,7 +53,6 @@ function MultiProgressBar() {
             Average: <b>{Math.round(average)}%</b>
         </p>
 
-        {/* Sub Bars */}
         <div className="space-y-2">
             {values.map((value, index) => (
             <div key={index}>

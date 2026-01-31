@@ -50,7 +50,6 @@ function UserForm() {
         <h2 className="text-xl font-bold mb-4">📄 User Form</h2>
 
         <form onSubmit={handleSubmit} className="space-y-4">
-            {/* Name */}
             <div>
             <input
                 className="border p-2 w-full rounded"
@@ -64,7 +63,6 @@ function UserForm() {
             )}
             </div>
 
-            {/* Email */}
             <div>
             <input
                 className="border p-2 w-full rounded"
@@ -78,7 +76,6 @@ function UserForm() {
             )}
             </div>
 
-            {/* ID */}
             <div>
             <input
                 className="border p-2 w-full rounded"
@@ -92,7 +89,6 @@ function UserForm() {
             )}
             </div>
 
-            {/* Password */}
             <div>
             <div className="flex gap-2">
                 <input
@@ -121,7 +117,6 @@ function UserForm() {
             </button>
         </form>
 
-        {/* Display Submitted Data */}
         {submittedData && (
             <div className="mt-6 bg-gray-100 p-4 rounded">
             <h3 className="font-semibold mb-2">Submitted Data:</h3>
