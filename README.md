@@ -50,6 +50,8 @@ npm run dev
 
 http://localhost:5173
 
+---
+
 # Frontend Assignment Submission
 
 This repository contains the implementation of five distinct frontend tasks, focusing on UI/UX, state management, and data persistence.
