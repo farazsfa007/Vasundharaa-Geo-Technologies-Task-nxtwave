@@ -44,18 +44,17 @@ src/
 
 ### Steps to Run Locally
 
-- `npm install
-
-- `npm run dev
+- npm install
+- npm run dev
 
 http://localhost:5173
 
 ---
 
 
-## 🚀 Features Implemented
+## Features Implemented
 
-### ✅ Task 1 – Todo App
+### Task 1 – Todo App
 - Add, delete, and mark tasks as complete
 - Task prioritization (**Low / Medium / High**)
 - Filter tasks (**All / Active / Completed**)
@@ -63,7 +62,7 @@ http://localhost:5173
 
 ---
 
-### 📝 Task 2 – Form Handling & Password Toggle
+### Task 2 – Form Handling & Password Toggle
 - Controlled form inputs (**Name, Email, ID, Password**)
 - Inline validation with error messages
 - Email validation using **Regex**
@@ -73,7 +72,7 @@ http://localhost:5173
 
 ---
 
-### 📊 Task 3 – Dynamic Multi-Input Progress Bar
+### Task 3 – Dynamic Multi-Input Progress Bar
 - Multiple numeric inputs (**0–100**)
 - Main progress bar representing average value
 - Individual sub progress bars
@@ -83,7 +82,7 @@ http://localhost:5173
 
 ---
 
-### ⏱️ Task 4 – Advanced Countdown Timer
+### Task 4 – Advanced Countdown Timer
 - Configurable countdown time (**default: 10 seconds**)
 - **Start, Pause, Resume, and Reset** controls
 - Millisecond precision timer
@@ -94,7 +93,7 @@ http://localhost:5173
 
 ---
 
-### 🔍 Task 5 – Live Search with Highlighting
+### Task 5 – Live Search with Highlighting
 - Case-insensitive search
 - Highlight matching text (including multiple matches)
 - Dynamic result count
@@ -102,7 +101,7 @@ http://localhost:5173
 
 ---
 
-## 🧠 Assumptions & Design Decisions
+## Assumptions & Design Decisions
 - **Tailwind CSS** is used for fast and consistent styling
 - **LocalStorage** is used for persistence instead of a backend
 - The application is UI-focused as per assignment scope
@@ -110,7 +109,7 @@ http://localhost:5173
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 - No backend or database integration
 - No authentication or authorization
 - Designed for demo and evaluation purposes only
