@@ -44,8 +44,8 @@ src/
 
 ### Steps to Run Locally
 
-npm install
-npm run dev
+`npm install
+`npm run dev
 
 http://localhost:5173
 
