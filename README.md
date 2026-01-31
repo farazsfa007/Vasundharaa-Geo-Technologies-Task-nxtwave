@@ -52,66 +52,65 @@ http://localhost:5173
 
 ---
 
-# Frontend Assignment Submission
-
-This repository contains the implementation of five distinct frontend tasks, focusing on UI/UX, state management, and data persistence.
 
 ## 🚀 Features Implemented
 
-### Task 1 – Todo App
-A comprehensive task management tool with persistence.
-* **CRUD Operations:** Add, delete, and mark tasks as complete.
-* **Prioritization:** Assign priority levels (**Low** / **Medium** / **High**).
-* **Filtering:** View tasks by status (**All** / **Active** / **Completed**).
-* **Persistence:** Uses `LocalStorage` to save data across sessions.
-
-### Task 2 – Form Handling & Password Toggle
-A robust form with real-time validation and user-friendly controls.
-* **Controlled Inputs:** Manages state for Name, Email, ID, and Password.
-* **Validation:**
-    * Inline validation with immediate error messages.
-    * Email format validation using **Regex**.
-* **UX Enhancements:** Show/Hide password toggle.
-* **Submission:** Displays submitted data and resets the form upon success.
-
-### Task 3 – Dynamic Multi-Input Progress Bar
-An interactive visualization of numeric data.
-* **Multiple Inputs:** Accepts multiple numeric values (0–100).
-* **Visual Feedback:**
-    * Main progress bar representing the **average value**.
-    * Individual sub-progress bars for each input.
-    * Animated progress fill and color changes based on percentage.
-* **Data Integrity:** Input value clamping to ensure valid ranges.
-
-### Task 4 – Advanced Countdown Timer
-A precise timer with state preservation.
-* **Controls:** Start, Pause, Resume, and Reset functionality.
-* **Configuration:** Custom countdown time (Default: 10s).
-* **Precision:** Millisecond-level accuracy.
-* **Status Indicators:** Visual display of *Running*, *Paused*, or *Completed* states.
-* **Persistence:** Maintains timer state across page refreshes (handled via end timestamps).
-* **Safety:** Prevents multiple timer instances from running simultaneously.
-* **Completion:** Displays "Time’s up!" message when finished.
-
-### Task 5 – Live Search with Highlighting
-A real-time search utility.
-* **Search Logic:** Case-insensitive matching.
-* **Visuals:** Highlights matching text, including multiple occurrences within a string.
-* **Feedback:** Shows dynamic result counts and a "No matches found" state.
+### ✅ Task 1 – Todo App
+- Add, delete, and mark tasks as complete
+- Task prioritization (**Low / Medium / High**)
+- Filter tasks (**All / Active / Completed**)
+- Persistent storage using **LocalStorage**
 
 ---
 
-## 🛠️ Assumptions & Design Decisions
+### 📝 Task 2 – Form Handling & Password Toggle
+- Controlled form inputs (**Name, Email, ID, Password**)
+- Inline validation with error messages
+- Email validation using **Regex**
+- Show / Hide password toggle
+- Display submitted form data
+- Form reset after successful submission
 
-* **Styling:** **Tailwind CSS** is used throughout for fast, consistent, and utility-first styling.
-* **Persistence strategy:** `LocalStorage` is utilized to mimic backend persistence, ensuring data remains available after reloading the page.
-* **Timer Accuracy:** To handle page refreshes correctly, the timer logic calculates the remaining time based on an **end timestamp** rather than simple intervals.
-* **Scope:** The application is strictly UI/Frontend-focused as per the assignment requirements.
+---
+
+### 📊 Task 3 – Dynamic Multi-Input Progress Bar
+- Multiple numeric inputs (**0–100**)
+- Main progress bar representing average value
+- Individual sub progress bars
+- Input value clamping
+- Animated progress fill
+- Color change based on percentage
+
+---
+
+### ⏱️ Task 4 – Advanced Countdown Timer
+- Configurable countdown time (**default: 10 seconds**)
+- **Start, Pause, Resume, and Reset** controls
+- Millisecond precision timer
+- Timer status display (**Running, Paused, Completed**)
+- **“Time’s up!”** message on completion
+- Persistent timer state across page refresh
+- Prevention of multiple timers
+
+---
+
+### 🔍 Task 5 – Live Search with Highlighting
+- Case-insensitive search
+- Highlight matching text (including multiple matches)
+- Dynamic result count
+- **“No matches found”** message
+
+---
+
+## 🧠 Assumptions & Design Decisions
+- **Tailwind CSS** is used for fast and consistent styling
+- **LocalStorage** is used for persistence instead of a backend
+- The application is UI-focused as per assignment scope
+- Timer persistence is handled using end timestamps for accuracy
 
 ---
 
 ## ⚠️ Limitations
-
-* **No Backend:** There is no server-side database integration.
-* **Security:** No authentication or authorization implementation.
-* **Purpose:** This application is designed specifically for **demo and evaluation purposes only**.
+- No backend or database integration
+- No authentication or authorization
+- Designed for demo and evaluation purposes only
